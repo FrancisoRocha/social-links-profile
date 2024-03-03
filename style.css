@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "inter";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: "inter-bold";
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: "inter-regular";
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: "inter-semibold";
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+#container{
+    border: 1px solid hsl(0, 0%, 20%);
+    margin: 0px auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 20%;
+    background: hsl(0, 0%, 20%);
+    border-radius: 15px;
+}
+#container .foto{
+    margin-left: 30%;
+    margin-top: 25px;
+    border-radius: 50%;
+    width: 35%;
+}
+#container .title{
+    font-family: "inter-semibold";
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 1;
+    color: hsl(0, 0%, 100%);
+}
+#container .text-1{
+    font-family: "inter";
+    font-size: 13px;
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    margin-top: 2%;
+}
+#container .text{
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    font-family: "inter-regular";
+}
+#container a{
+    text-decoration: none;
+}
+#container input{
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    margin-top: 15px;
+    width: 80%;
+    background: hsl(0, 0%, 12%);
+    cursor: pointer;
+    border-radius: 10px;
+}
+#container input:hover{
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+    transition: all 500ms;
+}
+#container input{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-family: "inter";
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    color: hsl(0, 0%, 82%);
+}
+#container .attribution{
+    color: #fff;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+#container .attribution .uno{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+#container .attribution .uno a{
+    color: #b90fe8;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: "inter";
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+#container .attribution .dos{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+#container .attribution .dos a{
+    color: #e86d0f;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: "inter";
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+@media screen and (320px <= width <= 480px){
+    #container{
+        width: 70%;
+        margin: 0px auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 5%;
+    }
+    #container .foto{
+        margin-left: 25%;
+        margin-top: 15%;
+        width: 50%;
+    }
+    #container .title{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    #container .text-1{
+        font-size: 20px;
+        margin-top: 8%;
+    }
+    #container .text{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    #container input{
+        margin: 0px auto;
+        padding: 20px;
+        margin-top: 15px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    #container input{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media screen and (481px <= width <= 768px){
+    #container{
+        width: 70%;
+        margin: 0px auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 5%;
+    }
+    #container .foto{
+        margin-left: 25%;
+        margin-top: 15%;
+        width: 50%;
+    }
+    #container .title{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    #container .text-1{
+        font-size: 20px;
+        margin-top: 8%;
+    }
+    #container .text{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    #container input{
+        margin: 0px auto;
+        padding: 20px;
+        margin-top: 15px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    #container input{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #container .attribution .uno{
+        font-size: 25px;
+    }
+    #container .attribution .uno a{
+        font-size: 25px;
+    }
+    #container .attribution .dos{
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    #container .attribution .dos a{
+        font-size: 25px;
+    }
+}
+@media screen and (769px <= width <= 1024px){
+    #container{
+        width: 70%;
+        margin: 0px auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 5%;
+    }
+    #container .foto{
+        margin-left: 25%;
+        margin-top: 15%;
+        width: 50%;
+    }
+    #container .title{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    #container .text-1{
+        font-size: 20px;
+        margin-top: 8%;
+    }
+    #container .text{
+        margin-top: 20px;
+        font-size: 18px;
+    }
+    #container input{
+        margin: 0px auto;
+        padding: 20px;
+        margin-top: 15px;
+        width: 100%;
+        border-radius: 20px;
+    }
+    #container input{
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #container .attribution .uno{
+        font-size: 25px;
+    }
+    #container .attribution .uno a{
+        font-size: 25px;
+    }
+    #container .attribution .dos{
+        margin-top: 25px;
+        font-size: 25px;
+    }
+    #container .attribution .dos a{
+        font-size: 25px;
+    }
+}
