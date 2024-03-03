@@ -27,8 +27,8 @@ This is a solution to the [Social links profile challenge on Frontend Mentor]([h
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://github.com/FrancisoRocha/social-links-profile))
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com](https://francisorocha.github.io/social-links-profile/))
+- Solution URL: [My solution]((https://github.com/FrancisoRocha/social-links-profile))
+- Live Site URL: [Live site](https://your-live-site-url.com](https://francisorocha.github.io/social-links-profile/))
 
 ## My process
 
