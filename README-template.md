@@ -22,8 +22,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor]([h
 
 ### Screenshot
 
-![](![image])([https://github.com/FrancisoRocha/social-links-profile/assets/122055396/86692b80-71b4-4781-b38e-b617fd2c5b42)
-])
+![](![image])([https://github.com/FrancisoRocha/social-links-profile/assets/122055396/86692b80-71b4-4781-b38e-b617fd2c5b42])
 
 ### Links
 
