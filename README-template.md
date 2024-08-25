@@ -97,4 +97,4 @@ CSS Grid and Flexbox: While I’ve utilized CSS Grid and Flexbox for layout crea
 
 - Frontend Mentor - [@FrancisoRocha](https://www.frontendmentor.io/profile/FrancisoRocha)
 - GitHub - [@FrancisoRocha](https://github.com/FrancisoRocha)
-- GitHub - [@Francis99472176](https://x.com/Francis99472176)
+- Twitter - [@Francis99472176](https://x.com/Francis99472176)
