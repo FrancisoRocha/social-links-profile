@@ -1,0 +1,137 @@
+/* COLORES */
+:root{
+    --fondo: #141414;
+    --card: #1F1F1F;
+    --botons: #333333;
+    --funte: #ffffff;
+    --hover: #C4F82A;
+}
+
+/* FUENTES */
+@font-face {
+    font-family: 'Inter-Var';
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family: 'Inter-Bol';
+    src: url(../assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: 'Inter-Reg';
+    src: url(../assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: 'Inter-Semi';
+    src: url(../assets/fonts/static/Inter-SemiBold.ttf);
+}
+html {
+    font-size: 62.5%; /** 1REM = 10pX **/
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body{
+    background-color: var(--fondo);
+}
+.card__container{
+    width: 38rem;
+    height: 60rem;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    background-color: var(--card);
+    margin-top: 13rem;
+}
+
+.img{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    margin-top: 4rem;
+    margin-left: 14rem;
+}
+.name{
+    text-align: center;
+    color: var(--funte);
+    font-family: 'Inter-Semi';
+    font-size: 2.4rem;
+    margin-top: 1.5rem;
+}
+.pais{
+    color: var(--hover);
+    font-family: 'Inter-Bol';
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+.dev{
+    color: var(--funte);
+    font-family: 'Inter-Reg';
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.social__media{
+    width: 30.4rem;
+    height: 45rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.social__media{
+    margin: 0 auto;
+}
+.social__media ul{
+    list-style: none;
+    padding: 0;
+}
+.links__social li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 4rem;
+    margin-top: 2rem;
+    background-color: var(--botons);
+    border-radius: 0.7rem;
+}
+.list_social a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: var(--funte);
+    font-size: 1.4rem;
+    font-family: 'Inter-Bol';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_social:hover{ 
+    background-color: var(--hover);
+    transition: all 400ms;
+}
+.list_social:hover a{
+    color: var(--hover-funte);
+    transition: all 400ms;
+}
+@media (max-width: 768px){
+    .img{
+        margin-left: 11rem;
+    }
+    .name{
+        margin-top: 2rem;
+    }
+    .card__container{
+        width: 30rem;
+        height: 60rem;
+        margin: 0 auto;
+        margin-top: 13rem;
+    }
+    .links__social li{
+        width: 24.9rem;
+        margin-left: 3rem;
+    }
+}
